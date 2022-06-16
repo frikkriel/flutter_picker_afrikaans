@@ -46,7 +46,8 @@ class _MyAppState extends State<MyApp> {
           const Locale('ko', 'KO'),
           const Locale('it', 'IT'),
           const Locale('ar', 'AR'),
-          const Locale('tr', 'TR')
+          const Locale('tr', 'TR'),
+          const Locale('af', 'ZA')
         ],
         home: MyHomePage());
   }
@@ -561,7 +562,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final txtColor = Colors.white;
     final txtStyle = TextStyle(color: txtColor);
     final selectColor = Colors.black.withOpacity(0.20);
-    final delimiterChild =  Align(
+    final delimiterChild = Align(
       alignment: Alignment.center,
       child: Container(width: 50, height: itemExtent, color: selectColor),
     );

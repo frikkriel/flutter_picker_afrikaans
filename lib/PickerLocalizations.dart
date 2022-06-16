@@ -42,7 +42,8 @@ class PickerLocalizations extends PickerLocalizationsBase {
     'ar',
     'fr',
     'es',
-    'tr'
+    'tr',
+    'af'
   ];
 
   /// Language Values
@@ -118,6 +119,39 @@ class PickerLocalizations extends PickerLocalizationsBase {
         'Ekim',
         'Kasım',
         'Aralık'
+      ]
+    },
+    'af': {
+      'cancelText': 'Kanselleer',
+      'confirmText': 'Bevestig',
+      'ampm': ['VM', 'NM'],
+      'months': [
+        'Jan',
+        'Feb',
+        'Mar',
+        'Apr',
+        'Mei',
+        'Jun',
+        'Jul',
+        'Aug',
+        'Sep',
+        'Okt',
+        'Nov',
+        'Des'
+      ],
+      'monthsLong': [
+        'Januarie',
+        'Februarie',
+        'Maart',
+        'April',
+        'Mei',
+        'Junie',
+        'Julie',
+        'Augustus',
+        'September',
+        'Oktober',
+        'November',
+        'Desember'
       ]
     },
   };
